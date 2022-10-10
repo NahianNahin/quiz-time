@@ -35,7 +35,7 @@ function App() {
 
 
   return (
-    <div className='w-11/12 m-auto'>
+    <div>
       <RouterProvider router={router} />
 
     </div>

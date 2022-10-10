@@ -6,7 +6,7 @@ const Quiz = ({quiz}) => {
         <div >
             <div className="card  bg-slate-100 shadow-xl">
                 <figure className="px-3 pt-3">
-                    <img src={logo} alt="Shoes" className="rounded-xl" />
+                    <img src={logo} alt="Shoes" className="rounded-xl"/>
                 </figure>
                 <div className="card-body items-center text-center">
                     <h2 className="card-title">{name}</h2>
