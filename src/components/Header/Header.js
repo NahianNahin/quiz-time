@@ -5,11 +5,11 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <div className='w-11/12 m-auto'>
+        <div >
             <div className="navbar bg-base-100">
                 <div className="flex-1">
                     {/* <img src={Quiz} alt="" /> */}
-                    <Link to="/" className="btn btn-ghost normal-case text-xl">Quiz Time</Link>
+                    <Link to="/" className="normal-case text-2xl">Quiz Time</Link>
                 </div>
                 <div className="flex-none">
                     <ul className="menu menu-horizontal p-0">
