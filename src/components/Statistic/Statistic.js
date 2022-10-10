@@ -6,7 +6,7 @@ const Statistic = () => {
     const data = useLoaderData();
     return (
         <div className='w-11/12 m-auto'>
-            <h1 className='text-4xl font-semibold p-14 text-center'>The Graph Between Topic Name VS Amount of Quiz Quistion.</h1>
+            <h1 className='md:text-4xl font-semibold p-14 text-center'>The Graph Between Topic Name VS Amount of Quiz Quistion.</h1>
             <Graph data={data.data}></Graph>
 
         </div>
