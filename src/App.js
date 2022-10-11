@@ -9,6 +9,7 @@ import Topics from './components/Topics/Topics';
 import Statistic from './components/Statistic/Statistic';
 import TopicQuiz from './components/TopicQuiz/TopicQuiz';
 import Blogs from './components/Blogs/Blogs';
+import Error from './components/Error/Error';
 
 function App() {
   const router = createBrowserRouter([
@@ -39,6 +40,10 @@ function App() {
         
       ]
     },
+    {
+      path: "*",
+      element: <Error></Error>
+    }
   ]);
 
 

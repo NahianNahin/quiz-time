@@ -11,7 +11,7 @@ const QuizQuestion = ({ ques }) => {
     const notify = () => toast(`Correct Answer : ${correctAnswer}`);
     console.log(ques);
     return (
-        <div>
+        <div className='flex justify-center items-center'>
             <div className="card w-10/12 bg-base-100 shadow-xl p-5">
                 <div className="card-body">
                     <div className='question'>
@@ -21,7 +21,7 @@ const QuizQuestion = ({ ques }) => {
                             <ToastContainer />
                         </div>
                     </div>
-                    <div className='grid grid-cols-2 form-control'>
+                    <div className='grid grid-cols-1 sm:grid-cols-2 form-control'>
                         {
                             options.map(answer => <Option answer={answer} correctAnswer={correctAnswer}></Option>)
                         }
