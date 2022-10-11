@@ -11,9 +11,9 @@ const BottomNavbar = () => {
                 <NavLink to="/statistics" className={({ isActive }) =>
                     isActive ? 'active text-primary' : undefined
                 }>Statistic</NavLink>
-                <NavLink to="/blog" className={({ isActive }) =>
+                <NavLink to="/blogs" className={({ isActive }) =>
                     isActive ? 'active text-primary' : undefined
-                }>Blog</NavLink>
+                }>Blogs</NavLink>
             </div>
         </div>
     );

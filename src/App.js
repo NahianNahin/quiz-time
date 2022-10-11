@@ -7,8 +7,8 @@ import {
 import Main from './layouts/Main';
 import Topics from './components/Topics/Topics';
 import Statistic from './components/Statistic/Statistic';
-import Blog from './components/Blog/Blog';
 import TopicQuiz from './components/TopicQuiz/TopicQuiz';
+import Blogs from './components/Blogs/Blogs';
 
 function App() {
   const router = createBrowserRouter([
@@ -32,8 +32,9 @@ function App() {
           element: <Statistic></Statistic>
         },
         {
-          path: "/blog",
-          element: <Blog></Blog>
+          path: "/blogs",
+          loader:() => fetch('blogs.json'),
+          element: <Blogs></Blogs>
         }
         
       ]
