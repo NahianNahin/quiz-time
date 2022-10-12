@@ -2,9 +2,11 @@
 
 In this project I use varaity of thing.The project is about Quiz.
 
+In the project I showed some quiz in the UI. I used React in my project. Also I used React Route. I used react toast to show some important information.I used HeroIcon to show some icon.There are two another section - Statistic & Blog section.In Statistic section I used RechartJs to show the graph.At last I added 404 Not Found page.
+
 ## Project Website Name : Quiz Time
 
-Those are in below:
+Those features I used are in below:
 
 1. React
 2. React Router Dom
