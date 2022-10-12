@@ -1,6 +1,5 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
-import HeadingSection from '../HeadingSection/HeadingSection';
 import Quizs from '../Quizs/Quizs';
 
 const Topics = () => {
