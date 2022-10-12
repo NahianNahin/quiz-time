@@ -5,9 +5,9 @@ const BottomNavbar = () => {
     return (
         <div>
             <div className="btm-nav md:hidden">
-                <NavLink to="/" className={({ isActive }) =>
+                <NavLink to="/topics" className={({ isActive }) =>
                     isActive ? 'active text-primary' : undefined
-                }>Home</NavLink>
+                }>Topics</NavLink>
                 <NavLink to="/statistics" className={({ isActive }) =>
                     isActive ? 'active text-primary' : undefined
                 }>Statistic</NavLink>
